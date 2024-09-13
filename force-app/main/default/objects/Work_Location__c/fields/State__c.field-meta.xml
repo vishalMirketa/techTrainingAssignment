@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <description>ny 4 states of India
+Any 4 states of US</description>
+    <externalId>false</externalId>
+    <label>State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>CITY_SUBCATEGORY</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>Kerala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>Maharashtra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>Rajasthan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>Tamil Nadu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>US</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
