@@ -4,7 +4,7 @@
 
 
 public class AccountTriggerHandler{
-    
+    //Update
     public static void beforeInsert(List<Account> newList){
         for (Account acc : newList) {
             // Check if Industry is not null and is 'Media'
